@@ -62,7 +62,7 @@ a, a:visited {
             <p>Missing for <?= get("http://api.freebassel.org/disappeared/") ?> days</p>
             <p class="hashtag">#disappeared</p>
             <p>In Prison for <?= get("http://api.freebassel.org/days/") ?> days</p>
-            <p class="hashtag">#Freebassel</p>
+            <p class="hashtag">#WhereIsBassel</p>
         </a>
     <?php } else { ?>
     <iframe src="http://bassel.jcubic.pl" width="300" height="170" style="border: 1px solid black"></iframe>
