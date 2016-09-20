@@ -60,9 +60,9 @@ a, a:visited {
             <h1>Bassel Khartabil</h1>
             <img src="https://openclipart.org/image/100px/svg_to_png/243593/freebassel-2016-red-square.png"/>
             <p>Missing for <?= get("http://api.freebassel.org/disappeared/") ?> days</p>
-            <p class="hashtag">#WhereIsBassel</p>
+            <p class="hashtag">#disappeared</p>
             <p>In Prison for <?= get("http://api.freebassel.org/days/") ?> days</p>
-            <p class="hashtag">#Freebassel</p>
+            <p class="hashtag"><a href="https://twitter.com/freebassel">@freebassel</a></p>
         </a>
         <!-- Piwik -->
         <script type="text/javascript">
