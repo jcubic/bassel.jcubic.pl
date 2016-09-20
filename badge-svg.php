@@ -1,7 +1,8 @@
 <?php
 require('utils.php'); 
-header("Content-Type: image/svg+xml");
-?><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+header('Content-Type: image/svg+xml');
+get("http://piwik.jcubic.pl/piwik.php?idsite=7");
+?><?= '<?xml version="1.0" encoding="UTF-8" standalone="no"?>' ?>
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="300" height="170" id="svg2" version="1.1">
   <defs id="defs4" />
   <metadata id="metadata7">
