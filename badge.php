@@ -50,7 +50,7 @@ a, a:visited {
             <p>Missing for <?= get("http://api.freebassel.org/disappeared/") ?> days</p>
             <p class="hashtag">#disappeared</p>
             <p>In Prison for <?= get("http://api.freebassel.org/days/") ?> days</p>
-            <p class="hashtag"><a href="https://twitter.com/freebassel" target="_blank">@freebassel</a></p>
+            <p class="hashtag"><a href="https://twitter.com/freebassel" target="_top">@freebassel</a></p>
         </a>
         <!-- Piwik -->
         <script type="text/javascript">
