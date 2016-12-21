@@ -11,7 +11,7 @@
     </head>
     <body>
     <iframe src="http://bassel.jcubic.pl/badge.php" width="300" height="170" style="border: 1px solid black"></iframe>
-    <textarea cols="50" rows="10"><iframe src="http://bassel.jcubic.pl/badge.php" width="300" height="170" style="border: 1px solid black"/></textarea>
+    <textarea cols="50" rows="10"><iframe src="http://bassel.jcubic.pl/badge.php" width="300" height="170" style="border: 1px solid black"></iframe></textarea>
     <br/>
     <a href="http://freebassel.org/"><img src="http://bassel.jcubic.pl/badge-svg.php" alt="Freebassel Badge" style="border: 1px solid black"/></a>
     <textarea cols="50" rows="10"><a href="http://freebassel.org/"><img src="http://bassel.jcubic.pl/badge-svg.php" alt="Freebassel Badge" style="border: 1px solid black"/></a></textarea>
