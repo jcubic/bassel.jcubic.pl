@@ -1,5 +1,5 @@
 <?php
-require('utils.php'); 
+require('utils.php');
 header('Content-Type: image/svg+xml');
 get("http://piwik.jcubic.pl/piwik.php?idsite=7");
 ?><?= '<?xml version="1.0" encoding="UTF-8" standalone="no"?>' ?>
