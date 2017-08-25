@@ -17,9 +17,12 @@ h1 {
     margin: 0;
     text-align: center;
 }
-.hashtag {
+.hashtag a, .hashtag a:visited{
     color: #FF2747;
     font-weight: bold;
+}
+.hashtag a:hover {
+    text-decoration: underline;
 }
 img + p {
     margin-top: 10px;
@@ -28,6 +31,8 @@ p {
     margin: 5px 0;
     float: right;
     clear: right;
+    text-align: right;
+    margin-right: 20px;
 }
 img {
     float: left;
@@ -40,6 +45,12 @@ a {
 }
 a, a:visited {
     color: black;
+}
+.text {
+    position: absolute;
+    text-align: right;
+    right: 20px;
+    top: 62px;
 }
 .source {
     position: absolute;
@@ -63,10 +74,13 @@ a, a:visited {
         <a href="http://freebassel.org/">
             <h1>Bassel Khartabil</h1>
             <img src="https://openclipart.org/image/100px/svg_to_png/243593/freebassel-2016-red-square.png"/>
-            <p>Missing for <?= get("http://api.freebassel.org/disappeared/") ?> days</p>
-            <p class="hashtag">#disappeared</p>
-            <p>In Prison for <?= get("http://api.freebassel.org/days/") ?> days</p>
-            <p class="hashtag"><a href="https://twitter.com/freebassel" target="_top">@freebassel</a></p>
+            <div class="text">
+              <p>Executed by Syrian Gov.</p>
+              <p><?= get("http://api.freebassel.org/executed/", "unknown") ?> day ago</p>
+              <p class="hashtag">
+                <a href="https://twitter.com/freebassel" target="_top">@freebassel</a>
+              </p>
+            </div>
             <a target="_top" class="source" href="http://bassel.jcubic.pl"></a>
         </a>
         <!-- Piwik -->
