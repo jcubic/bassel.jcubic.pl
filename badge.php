@@ -76,7 +76,7 @@ a, a:visited {
             <img src="https://openclipart.org/image/100px/svg_to_png/243593/freebassel-2016-red-square.png"/>
             <div class="text">
               <p>Executed by Syrian Gov.</p>
-              <p><?= get("http://api.freebassel.org/executed/", "unknown") ?> day ago</p>
+              <p><?= get("http://api.freebassel.org/executed/", "unknown") ?> days ago</p>
               <p class="hashtag">
                 <a href="https://twitter.com/freebassel" target="_top">@freebassel</a>
               </p>
